@@ -79,6 +79,8 @@ After you're finished please remove all the comments and instructions!
 
 
 - **[list of data ]**
+- **[Add data ]**
+- **[Get data ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,7 +178,8 @@ Example command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Use API]**
+- [ ] **[Add spinner for loading]**
+- [ ] **[Desing good User Interface]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
