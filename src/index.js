@@ -30,6 +30,6 @@ form.addEventListener('submit', async (event) => {
   update();
 });
 
-reloadBtn.addEventListener('click', update());
+reloadBtn.addEventListener('click', () => update());
 
 window.onload = () => update();
