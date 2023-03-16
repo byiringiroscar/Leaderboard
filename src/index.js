@@ -14,7 +14,7 @@ const update = async () => {
   let html = '';
   for (let i = 0; i < allData.result.length; i += 1) {
     const singleData = allData.result[i];
-    html += `<li class="single-score">${singleData.user}: ${singleData.score}</li>`;
+    html += `<li class="single-score"><span>${singleData.user}:</span> <span>${singleData.score}</span></li>`;
   }
   scoreContainer.innerHTML = html;
 };

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,17 +14,17 @@
         <div class="score-sec">
             <div class="score">
                 <div class="recent">
-                    <h2>Recent scores</h2>
+                    <h2 class="title-recent">Recent scores</h2>
                     <button class="refresh">Refresh</button>
                 </div>
                 <ul class="container-scores">
                 </ul>
             </div>
             <div class="add">
-                <h2>Add your score</h2>
+                <h2 class="title-add">Add your score</h2>
                 <form action="" method="post" id="addForm">
-                    <input type="text" placeholder="Your name" id="player">
-                    <input type="number" placeholder="Your score" id="player-score">
+                    <input type="text" placeholder="Your name" id="player" required>
+                    <input type="number" placeholder="Your score" id="player-score" required>
                     <button type="submit" class="add-score">Submit</button>
                 </form>
             </div>
