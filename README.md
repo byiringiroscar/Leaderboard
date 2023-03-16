@@ -179,7 +179,6 @@ Example command:
 
 
 - [ ] **[Add spinner for loading]**
-- [ ] **[Desing good User Interface]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
